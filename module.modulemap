@@ -1,12 +1,12 @@
 module COpenGL [system] {
     module gl {
         header "/usr/include/GL/gl.h"
+        header "/usr/include/GL/glext.h"
     }
     
     module glx {
         header "/usr/include/X11/X.h"
         header "/usr/include/GL/glx.h"
-        header "/usr/include/GL/glext.h"
     }
     link "GL"
     export *
