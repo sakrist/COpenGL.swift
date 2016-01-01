@@ -1,4 +1,7 @@
 module COpenGL [system] {
+	
+    header "macros.h"
+    
     module gl {
         header "/usr/include/GL/gl.h"
         header "/usr/include/GL/glext.h"
@@ -9,5 +12,6 @@ module COpenGL [system] {
         header "/usr/include/GL/glx.h"
     }
     link "GL"
+
     export *
 }
