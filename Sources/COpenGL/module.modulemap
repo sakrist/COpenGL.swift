@@ -1,6 +1,6 @@
 module COpenGL [system] {
 
-    header "macros.h"
+    header "../../Headers/COpenGL-Bridging-Header.h"
 
     module gl {
         header "/usr/include/GL/gl.h"
